@@ -25,6 +25,6 @@
   "202": 0.765
  },
  "model": "r = f (theta + k2 theta^3) around (cx, cy), image rotated by roll; tilt / pan = o1_motor_2 / o1_motor_1",
- "data": "/home/ga85hiq/garmi_vlapi/data/garmi_grasp_bottle_v16, episodes [0, 18, 36, 55, 73, 91, 110, 128, 146, 165, 183, 202], every 3th frame",
+ "data": "../garmi_vlapi/data/garmi_grasp_bottle_v16, episodes [0, 18, 36, 55, 73, 91, 110, 128, 146, 165, 183, 202], every 3th frame",
  "optimizer": "Optimization terminated successfully."
 }

@@ -1,5 +1,5 @@
 {
- "source": "/home/ga85hiq/garmi_vlapi/data/garmi_grasp_bottle_v16",
+ "source": "../garmi_vlapi/data/garmi_grasp_bottle_v16",
  "grasps": [
   {
    "episode": 0,

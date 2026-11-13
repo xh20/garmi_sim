@@ -5,7 +5,7 @@
  "ceiling_gain": 0.000179,
  "rms": 17.7,
  "fitted_on": {
-  "isaac_raw": "/home/ga85hiq/sim/demos/lift_bottle_v2/raw_train",
+  "isaac_raw": "../sim/demos/lift_bottle_v2/raw_train",
   "episodes": [
    "episode_000000.npz",
    "episode_000001.npz",
@@ -46,7 +46,7 @@
  "hdri_sky_gain": 0.2,
  "fit_hdri": {
   "rms": 30.873887146431183,
-  "isaac_raw": "/home/ga85hiq/sim/demos/lift_bottle_v3/raw_train",
+  "isaac_raw": "../sim/demos/lift_bottle_v3/raw_train",
   "episodes": [
    "episode_000000.npz",
    "episode_000001.npz",
