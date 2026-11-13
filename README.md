@@ -37,11 +37,30 @@ are kept outside git:
 | `assets/bottles`, `bottles_v1`, `bottles_v2` | ~500 MB | bottle meshes and textures as USD, for Isaac |
 | `assets/bottles_mj` | 181 MB | the same bottles for MuJoCo |
 | `assets/hdri`, `hdri_mj` | ~1 GB | HDRI environment maps for dome lighting |
-| `assets/garmi` | 18 MB | the robot USD |
+| `assets/garmi` | 18 MB | the robot USD, converted from [garmi_description](https://github.com/geriatronics/garmi_description) |
 | `assets/v16_lab` | 2.4 MB | the lab-twin scene |
 
 `scripts/build_bottle_assets.py` and `build_bottle_assets_mj.py` rebuild the bottle assets from source meshes;
 the HDRIs are downloaded. Copy them from the group's machine rather than rebuilding if you have access.
+
+## The robot model
+
+The GARMI model — URDF, meshes and joint limits — comes from
+**[geriatronics/garmi_description](https://github.com/geriatronics/garmi_description)**, which is not vendored
+here. Check it out next to this repository; both `kinematics.py` and `robot.py` currently expect it at
+`~/sim/garmi_description/garmi_description` (a hard-coded path, not yet configurable).
+
+- `garmi_bench/kinematics.py` reads its URDF directly for forward and inverse kinematics and for joint limits.
+- `garmi_bench/robot.py` builds the Isaac USD from it. It does **not** import the URDF unmodified: Isaac Sim 6.2's
+  importer and PhysX need four fixes, applied to a copy at import time — `package://` mesh paths resolved to
+  absolute ones; `<gazebo>`, `<ros2_control>` and Franka's `<position_based_velocity_limits>` stripped (the
+  converter crashes on them); `<mimic>` removed, because PhysX mimic joints drove the articulation to NaN within
+  about 30 steps, so the coupled joints — the second finger and the upper lift stage — are commanded together
+  instead; and the USD's "Physics" variant set switched to "physx" after import. Joint drives come in with zero
+  gains and are set by `set_drive_gains`.
+
+Nothing in `garmi_bench` redefines the robot's geometry, so a change upstream flows through — but if the upstream
+URDF changes shape, re-check those four fixes.
 
 ## Task and conventions
 
