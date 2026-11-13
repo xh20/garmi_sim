@@ -1,0 +1,763 @@
+{
+ "criteria": {
+  "max_diameter_mm": 70.0,
+  "max_mass_kg": 1.5,
+  "gripper_opening_mm": 80.0
+ },
+ "bottles": [
+  {
+   "asset": "001_bottle_0",
+   "category": "001_bottle",
+   "x_mm": 75.6,
+   "y_mm": 75.3,
+   "max_diameter_mm": 75.8,
+   "cap_diameter_mm": 39.6,
+   "height_mm": 254.7,
+   "volume_l": 0.979,
+   "est_mass_kg": 0.91,
+   "stable": true,
+   "clearance_per_finger_mm": 2.1,
+   "graspable": false,
+   "reasons": [
+    "too wide (76 mm)"
+   ]
+  },
+  {
+   "asset": "001_bottle_1",
+   "category": "001_bottle",
+   "x_mm": 79.7,
+   "y_mm": 79.1,
+   "max_diameter_mm": 80.0,
+   "cap_diameter_mm": 43.0,
+   "height_mm": 254.7,
+   "volume_l": 1.078,
+   "est_mass_kg": 1.0,
+   "stable": true,
+   "clearance_per_finger_mm": -0.0,
+   "graspable": false,
+   "reasons": [
+    "too wide (80 mm)"
+   ]
+  },
+  {
+   "asset": "001_bottle_2",
+   "category": "001_bottle",
+   "x_mm": 71.7,
+   "y_mm": 70.9,
+   "max_diameter_mm": 72.0,
+   "cap_diameter_mm": 39.3,
+   "height_mm": 239.9,
+   "volume_l": 0.817,
+   "est_mass_kg": 0.76,
+   "stable": true,
+   "clearance_per_finger_mm": 4.0,
+   "graspable": false,
+   "reasons": [
+    "too wide (72 mm)"
+   ]
+  },
+  {
+   "asset": "001_bottle_3",
+   "category": "001_bottle",
+   "x_mm": 74.6,
+   "y_mm": 74.8,
+   "max_diameter_mm": 89.7,
+   "cap_diameter_mm": 59.2,
+   "height_mm": 255.0,
+   "volume_l": 1.121,
+   "est_mass_kg": 1.04,
+   "stable": true,
+   "clearance_per_finger_mm": -4.8,
+   "graspable": false,
+   "reasons": [
+    "too wide (90 mm)"
+   ]
+  },
+  {
+   "asset": "001_bottle_4",
+   "category": "001_bottle",
+   "x_mm": 67.9,
+   "y_mm": 66.7,
+   "max_diameter_mm": 68.1,
+   "cap_diameter_mm": 37.7,
+   "height_mm": 241.3,
+   "volume_l": 0.735,
+   "est_mass_kg": 0.69,
+   "stable": false,
+   "clearance_per_finger_mm": 6.0,
+   "graspable": false,
+   "reasons": [
+    "falls over (90 deg)"
+   ]
+  },
+  {
+   "asset": "001_bottle_5",
+   "category": "001_bottle",
+   "x_mm": 83.5,
+   "y_mm": 82.2,
+   "max_diameter_mm": 83.6,
+   "cap_diameter_mm": 44.0,
+   "height_mm": 254.7,
+   "volume_l": 1.157,
+   "est_mass_kg": 1.07,
+   "stable": true,
+   "clearance_per_finger_mm": -1.8,
+   "graspable": false,
+   "reasons": [
+    "too wide (84 mm)"
+   ]
+  },
+  {
+   "asset": "001_bottle_6",
+   "category": "001_bottle",
+   "x_mm": 88.6,
+   "y_mm": 87.8,
+   "max_diameter_mm": 88.6,
+   "cap_diameter_mm": 53.0,
+   "height_mm": 254.9,
+   "volume_l": 1.372,
+   "est_mass_kg": 1.26,
+   "stable": true,
+   "clearance_per_finger_mm": -4.3,
+   "graspable": false,
+   "reasons": [
+    "too wide (89 mm)"
+   ]
+  },
+  {
+   "asset": "001_bottle_7",
+   "category": "001_bottle",
+   "x_mm": 79.8,
+   "y_mm": 79.6,
+   "max_diameter_mm": 80.1,
+   "cap_diameter_mm": 43.1,
+   "height_mm": 254.9,
+   "volume_l": 1.08,
+   "est_mass_kg": 1.0,
+   "stable": true,
+   "clearance_per_finger_mm": -0.0,
+   "graspable": false,
+   "reasons": [
+    "too wide (80 mm)"
+   ]
+  },
+  {
+   "asset": "001_bottle_8",
+   "category": "001_bottle",
+   "x_mm": 69.5,
+   "y_mm": 68.6,
+   "max_diameter_mm": 69.5,
+   "cap_diameter_mm": 43.3,
+   "height_mm": 185.9,
+   "volume_l": 0.532,
+   "est_mass_kg": 0.51,
+   "stable": true,
+   "clearance_per_finger_mm": 5.2,
+   "graspable": true,
+   "reasons": []
+  },
+  {
+   "asset": "001_bottle_9",
+   "category": "001_bottle",
+   "x_mm": 69.0,
+   "y_mm": 67.9,
+   "max_diameter_mm": 69.0,
+   "cap_diameter_mm": 55.3,
+   "height_mm": 206.2,
+   "volume_l": 0.691,
+   "est_mass_kg": 0.65,
+   "stable": true,
+   "clearance_per_finger_mm": 5.5,
+   "graspable": true,
+   "reasons": []
+  },
+  {
+   "asset": "001_bottle_10",
+   "category": "001_bottle",
+   "x_mm": 77.7,
+   "y_mm": 77.3,
+   "max_diameter_mm": 96.8,
+   "cap_diameter_mm": 59.5,
+   "height_mm": 254.8,
+   "volume_l": 1.244,
+   "est_mass_kg": 1.15,
+   "stable": true,
+   "clearance_per_finger_mm": -8.4,
+   "graspable": false,
+   "reasons": [
+    "too wide (97 mm)"
+   ]
+  },
+  {
+   "asset": "001_bottle_11",
+   "category": "001_bottle",
+   "x_mm": 77.3,
+   "y_mm": 76.2,
+   "max_diameter_mm": 92.1,
+   "cap_diameter_mm": 57.5,
+   "height_mm": 260.0,
+   "volume_l": 1.17,
+   "est_mass_kg": 1.08,
+   "stable": true,
+   "clearance_per_finger_mm": -6.0,
+   "graspable": false,
+   "reasons": [
+    "too wide (92 mm)"
+   ]
+  },
+  {
+   "asset": "001_bottle_12",
+   "category": "001_bottle",
+   "x_mm": 83.9,
+   "y_mm": 83.8,
+   "max_diameter_mm": 84.3,
+   "cap_diameter_mm": 42.7,
+   "height_mm": 254.8,
+   "volume_l": 1.21,
+   "est_mass_kg": 1.12,
+   "stable": true,
+   "clearance_per_finger_mm": -2.2,
+   "graspable": false,
+   "reasons": [
+    "too wide (84 mm)"
+   ]
+  },
+  {
+   "asset": "001_bottle_13",
+   "category": "001_bottle",
+   "x_mm": 68.5,
+   "y_mm": 67.5,
+   "max_diameter_mm": 68.6,
+   "cap_diameter_mm": 37.8,
+   "height_mm": 247.9,
+   "volume_l": 0.768,
+   "est_mass_kg": 0.72,
+   "stable": true,
+   "clearance_per_finger_mm": 5.7,
+   "graspable": true,
+   "reasons": []
+  },
+  {
+   "asset": "001_bottle_14",
+   "category": "001_bottle",
+   "x_mm": 80.7,
+   "y_mm": 80.0,
+   "max_diameter_mm": 81.0,
+   "cap_diameter_mm": 51.9,
+   "height_mm": 231.9,
+   "volume_l": 1.021,
+   "est_mass_kg": 0.95,
+   "stable": true,
+   "clearance_per_finger_mm": -0.5,
+   "graspable": false,
+   "reasons": [
+    "too wide (81 mm)"
+   ]
+  },
+  {
+   "asset": "001_bottle_15",
+   "category": "001_bottle",
+   "x_mm": 83.7,
+   "y_mm": 83.0,
+   "max_diameter_mm": 84.1,
+   "cap_diameter_mm": 42.5,
+   "height_mm": 255.0,
+   "volume_l": 1.221,
+   "est_mass_kg": 1.13,
+   "stable": true,
+   "clearance_per_finger_mm": -2.1,
+   "graspable": false,
+   "reasons": [
+    "too wide (84 mm)"
+   ]
+  },
+  {
+   "asset": "001_bottle_16",
+   "category": "001_bottle",
+   "x_mm": 70.7,
+   "y_mm": 70.5,
+   "max_diameter_mm": 71.4,
+   "cap_diameter_mm": 36.5,
+   "height_mm": 255.3,
+   "volume_l": 0.833,
+   "est_mass_kg": 0.78,
+   "stable": true,
+   "clearance_per_finger_mm": 4.3,
+   "graspable": false,
+   "reasons": [
+    "too wide (71 mm)"
+   ]
+  },
+  {
+   "asset": "001_bottle_17",
+   "category": "001_bottle",
+   "x_mm": 79.5,
+   "y_mm": 79.2,
+   "max_diameter_mm": 79.6,
+   "cap_diameter_mm": 52.9,
+   "height_mm": 250.0,
+   "volume_l": 1.066,
+   "est_mass_kg": 0.99,
+   "stable": false,
+   "clearance_per_finger_mm": 0.2,
+   "graspable": false,
+   "reasons": [
+    "too wide (80 mm)",
+    "falls over (90 deg)"
+   ]
+  },
+  {
+   "asset": "001_bottle_18",
+   "category": "001_bottle",
+   "x_mm": 82.9,
+   "y_mm": 81.0,
+   "max_diameter_mm": 82.9,
+   "cap_diameter_mm": 59.5,
+   "height_mm": 193.3,
+   "volume_l": 0.884,
+   "est_mass_kg": 0.83,
+   "stable": true,
+   "clearance_per_finger_mm": -1.5,
+   "graspable": false,
+   "reasons": [
+    "too wide (83 mm)"
+   ]
+  },
+  {
+   "asset": "001_bottle_19",
+   "category": "001_bottle",
+   "x_mm": 95.2,
+   "y_mm": 120.0,
+   "max_diameter_mm": 120.1,
+   "cap_diameter_mm": 91.1,
+   "height_mm": 207.7,
+   "volume_l": 1.319,
+   "est_mass_kg": 1.22,
+   "stable": null,
+   "clearance_per_finger_mm": -20.1,
+   "graspable": false,
+   "reasons": [
+    "too wide (120 mm)"
+   ]
+  },
+  {
+   "asset": "001_bottle_20",
+   "category": "001_bottle",
+   "x_mm": 66.2,
+   "y_mm": 79.9,
+   "max_diameter_mm": 81.9,
+   "cap_diameter_mm": 55.5,
+   "height_mm": 212.6,
+   "volume_l": 0.736,
+   "est_mass_kg": 0.69,
+   "stable": true,
+   "clearance_per_finger_mm": -1.0,
+   "graspable": false,
+   "reasons": [
+    "too wide (82 mm)"
+   ]
+  },
+  {
+   "asset": "001_bottle_21",
+   "category": "001_bottle",
+   "x_mm": 89.1,
+   "y_mm": 89.1,
+   "max_diameter_mm": 89.2,
+   "cap_diameter_mm": 45.8,
+   "height_mm": 173.9,
+   "volume_l": 0.918,
+   "est_mass_kg": 0.86,
+   "stable": true,
+   "clearance_per_finger_mm": -4.6,
+   "graspable": false,
+   "reasons": [
+    "too wide (89 mm)"
+   ]
+  },
+  {
+   "asset": "001_bottle_22",
+   "category": "001_bottle",
+   "x_mm": 58.2,
+   "y_mm": 59.0,
+   "max_diameter_mm": 59.3,
+   "cap_diameter_mm": 41.6,
+   "height_mm": 173.9,
+   "volume_l": 0.412,
+   "est_mass_kg": 0.4,
+   "stable": true,
+   "clearance_per_finger_mm": 10.4,
+   "graspable": true,
+   "reasons": []
+  },
+  {
+   "asset": "114_bottle_1",
+   "category": "114_bottle",
+   "x_mm": 65.5,
+   "y_mm": 65.5,
+   "max_diameter_mm": 65.6,
+   "cap_diameter_mm": 34.6,
+   "height_mm": 215.9,
+   "volume_l": 0.635,
+   "est_mass_kg": 0.6,
+   "stable": true,
+   "clearance_per_finger_mm": 7.2,
+   "graspable": true,
+   "reasons": []
+  },
+  {
+   "asset": "114_bottle_2",
+   "category": "114_bottle",
+   "x_mm": 61.8,
+   "y_mm": 61.8,
+   "max_diameter_mm": 61.8,
+   "cap_diameter_mm": 33.7,
+   "height_mm": 227.4,
+   "volume_l": 0.574,
+   "est_mass_kg": 0.55,
+   "stable": true,
+   "clearance_per_finger_mm": 9.1,
+   "graspable": true,
+   "reasons": []
+  },
+  {
+   "asset": "114_bottle_3",
+   "category": "114_bottle",
+   "x_mm": 68.5,
+   "y_mm": 67.5,
+   "max_diameter_mm": 68.6,
+   "cap_diameter_mm": 37.8,
+   "height_mm": 247.9,
+   "volume_l": 0.768,
+   "est_mass_kg": 0.72,
+   "stable": true,
+   "clearance_per_finger_mm": 5.7,
+   "graspable": true,
+   "reasons": []
+  },
+  {
+   "asset": "114_bottle_4",
+   "category": "114_bottle",
+   "x_mm": 63.2,
+   "y_mm": 63.2,
+   "max_diameter_mm": 63.2,
+   "cap_diameter_mm": 22.3,
+   "height_mm": 220.1,
+   "volume_l": 0.587,
+   "est_mass_kg": 0.56,
+   "stable": true,
+   "clearance_per_finger_mm": 8.4,
+   "graspable": true,
+   "reasons": []
+  },
+  {
+   "asset": "029_olive-oil_0",
+   "category": "029_olive-oil",
+   "x_mm": 119.4,
+   "y_mm": 136.5,
+   "max_diameter_mm": 136.5,
+   "cap_diameter_mm": 45.1,
+   "height_mm": 305.4,
+   "volume_l": 3.199,
+   "est_mass_kg": 3.18,
+   "stable": null,
+   "clearance_per_finger_mm": -28.3,
+   "graspable": false,
+   "reasons": [
+    "too wide (137 mm)",
+    "too heavy (~3.18 kg)"
+   ]
+  },
+  {
+   "asset": "029_olive-oil_1",
+   "category": "029_olive-oil",
+   "x_mm": 77.0,
+   "y_mm": 77.7,
+   "max_diameter_mm": 93.5,
+   "cap_diameter_mm": 38.4,
+   "height_mm": 305.4,
+   "volume_l": 1.454,
+   "est_mass_kg": 1.61,
+   "stable": true,
+   "clearance_per_finger_mm": -6.8,
+   "graspable": false,
+   "reasons": [
+    "too wide (94 mm)",
+    "too heavy (~1.61 kg)"
+   ]
+  },
+  {
+   "asset": "029_olive-oil_2",
+   "category": "029_olive-oil",
+   "x_mm": 108.4,
+   "y_mm": 84.3,
+   "max_diameter_mm": 118.5,
+   "cap_diameter_mm": 42.9,
+   "height_mm": 305.4,
+   "volume_l": 2.149,
+   "est_mass_kg": 2.23,
+   "stable": null,
+   "clearance_per_finger_mm": -19.2,
+   "graspable": false,
+   "reasons": [
+    "too wide (118 mm)",
+    "too heavy (~2.23 kg)"
+   ]
+  },
+  {
+   "asset": "029_olive-oil_3",
+   "category": "029_olive-oil",
+   "x_mm": 79.5,
+   "y_mm": 79.5,
+   "max_diameter_mm": 98.8,
+   "cap_diameter_mm": 43.5,
+   "height_mm": 305.4,
+   "volume_l": 1.555,
+   "est_mass_kg": 1.7,
+   "stable": true,
+   "clearance_per_finger_mm": -9.4,
+   "graspable": false,
+   "reasons": [
+    "too wide (99 mm)",
+    "too heavy (~1.70 kg)"
+   ]
+  },
+  {
+   "asset": "029_olive-oil_4",
+   "category": "029_olive-oil",
+   "x_mm": 81.8,
+   "y_mm": 81.8,
+   "max_diameter_mm": 90.8,
+   "cap_diameter_mm": 52.2,
+   "height_mm": 305.4,
+   "volume_l": 1.554,
+   "est_mass_kg": 1.7,
+   "stable": true,
+   "clearance_per_finger_mm": -5.4,
+   "graspable": false,
+   "reasons": [
+    "too wide (91 mm)",
+    "too heavy (~1.70 kg)"
+   ]
+  },
+  {
+   "asset": "065_soy-sauce_0",
+   "category": "065_soy-sauce",
+   "x_mm": 67.5,
+   "y_mm": 67.5,
+   "max_diameter_mm": 80.5,
+   "cap_diameter_mm": 45.5,
+   "height_mm": 254.5,
+   "volume_l": 0.948,
+   "est_mass_kg": 1.15,
+   "stable": true,
+   "clearance_per_finger_mm": -0.2,
+   "graspable": false,
+   "reasons": [
+    "too wide (80 mm)"
+   ]
+  },
+  {
+   "asset": "065_soy-sauce_1",
+   "category": "065_soy-sauce",
+   "x_mm": 92.4,
+   "y_mm": 89.1,
+   "max_diameter_mm": 105.5,
+   "cap_diameter_mm": 38.9,
+   "height_mm": 253.9,
+   "volume_l": 1.26,
+   "est_mass_kg": 1.43,
+   "stable": null,
+   "clearance_per_finger_mm": -12.8,
+   "graspable": false,
+   "reasons": [
+    "too wide (106 mm)"
+   ]
+  },
+  {
+   "asset": "065_soy-sauce_2",
+   "category": "065_soy-sauce",
+   "x_mm": 83.8,
+   "y_mm": 83.9,
+   "max_diameter_mm": 84.1,
+   "cap_diameter_mm": 64.5,
+   "height_mm": 254.2,
+   "volume_l": 1.139,
+   "est_mass_kg": 1.33,
+   "stable": true,
+   "clearance_per_finger_mm": -2.1,
+   "graspable": false,
+   "reasons": [
+    "too wide (84 mm)"
+   ]
+  },
+  {
+   "asset": "065_soy-sauce_3",
+   "category": "065_soy-sauce",
+   "x_mm": 114.0,
+   "y_mm": 121.2,
+   "max_diameter_mm": 121.3,
+   "cap_diameter_mm": 42.6,
+   "height_mm": 305.5,
+   "volume_l": 2.354,
+   "est_mass_kg": 2.42,
+   "stable": null,
+   "clearance_per_finger_mm": -20.6,
+   "graspable": false,
+   "reasons": [
+    "too wide (121 mm)",
+    "too heavy (~2.42 kg)"
+   ]
+  },
+  {
+   "asset": "065_soy-sauce_4",
+   "category": "065_soy-sauce",
+   "x_mm": 76.1,
+   "y_mm": 76.2,
+   "max_diameter_mm": 76.3,
+   "cap_diameter_mm": 48.3,
+   "height_mm": 152.7,
+   "volume_l": 0.502,
+   "est_mass_kg": 0.75,
+   "stable": true,
+   "clearance_per_finger_mm": 1.8,
+   "graspable": false,
+   "reasons": [
+    "too wide (76 mm)"
+   ]
+  },
+  {
+   "asset": "066_vinegar_0",
+   "category": "066_vinegar",
+   "x_mm": 121.9,
+   "y_mm": 123.1,
+   "max_diameter_mm": 123.2,
+   "cap_diameter_mm": 45.2,
+   "height_mm": 305.5,
+   "volume_l": 2.701,
+   "est_mass_kg": 2.73,
+   "stable": null,
+   "clearance_per_finger_mm": -21.6,
+   "graspable": false,
+   "reasons": [
+    "too wide (123 mm)",
+    "too heavy (~2.73 kg)"
+   ]
+  },
+  {
+   "asset": "066_vinegar_1",
+   "category": "066_vinegar",
+   "x_mm": 75.1,
+   "y_mm": 74.4,
+   "max_diameter_mm": 75.1,
+   "cap_diameter_mm": 43.4,
+   "height_mm": 254.5,
+   "volume_l": 0.913,
+   "est_mass_kg": 1.12,
+   "stable": true,
+   "clearance_per_finger_mm": 2.4,
+   "graspable": false,
+   "reasons": [
+    "too wide (75 mm)"
+   ]
+  },
+  {
+   "asset": "066_vinegar_2",
+   "category": "066_vinegar",
+   "x_mm": 77.4,
+   "y_mm": 77.4,
+   "max_diameter_mm": 77.6,
+   "cap_diameter_mm": 39.2,
+   "height_mm": 254.5,
+   "volume_l": 1.007,
+   "est_mass_kg": 1.21,
+   "stable": false,
+   "clearance_per_finger_mm": 1.2,
+   "graspable": false,
+   "reasons": [
+    "too wide (78 mm)",
+    "falls over (14 deg)"
+   ]
+  },
+  {
+   "asset": "080_pillbottle_1",
+   "category": "080_pillbottle",
+   "x_mm": 74.1,
+   "y_mm": 73.3,
+   "max_diameter_mm": 74.2,
+   "cap_diameter_mm": 64.7,
+   "height_mm": 154.8,
+   "volume_l": 0.613,
+   "est_mass_kg": 0.58,
+   "stable": null,
+   "clearance_per_finger_mm": 2.9,
+   "graspable": false,
+   "reasons": [
+    "too wide (74 mm)"
+   ]
+  },
+  {
+   "asset": "080_pillbottle_2",
+   "category": "080_pillbottle",
+   "x_mm": 76.1,
+   "y_mm": 76.2,
+   "max_diameter_mm": 76.2,
+   "cap_diameter_mm": 64.3,
+   "height_mm": 154.8,
+   "volume_l": 0.648,
+   "est_mass_kg": 0.61,
+   "stable": null,
+   "clearance_per_finger_mm": 1.9,
+   "graspable": false,
+   "reasons": [
+    "too wide (76 mm)"
+   ]
+  },
+  {
+   "asset": "080_pillbottle_3",
+   "category": "080_pillbottle",
+   "x_mm": 75.1,
+   "y_mm": 75.0,
+   "max_diameter_mm": 75.2,
+   "cap_diameter_mm": 64.8,
+   "height_mm": 154.8,
+   "volume_l": 0.633,
+   "est_mass_kg": 0.6,
+   "stable": null,
+   "clearance_per_finger_mm": 2.4,
+   "graspable": false,
+   "reasons": [
+    "too wide (75 mm)"
+   ]
+  },
+  {
+   "asset": "080_pillbottle_4",
+   "category": "080_pillbottle",
+   "x_mm": 68.7,
+   "y_mm": 69.6,
+   "max_diameter_mm": 69.6,
+   "cap_diameter_mm": 58.7,
+   "height_mm": 154.8,
+   "volume_l": 0.53,
+   "est_mass_kg": 0.51,
+   "stable": null,
+   "clearance_per_finger_mm": 5.2,
+   "graspable": true,
+   "reasons": []
+  },
+  {
+   "asset": "080_pillbottle_5",
+   "category": "080_pillbottle",
+   "x_mm": 61.1,
+   "y_mm": 61.4,
+   "max_diameter_mm": 61.4,
+   "cap_diameter_mm": 57.5,
+   "height_mm": 154.8,
+   "volume_l": 0.433,
+   "est_mass_kg": 0.42,
+   "stable": null,
+   "clearance_per_finger_mm": 9.3,
+   "graspable": true,
+   "reasons": []
+  }
+ ]
+}

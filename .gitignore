@@ -1,0 +1,32 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Binary scene assets (see README): rebuilt by scripts/build_bottle_assets*.py or copied in.
+assets/bottles/
+assets/bottles_v1/
+assets/bottles_v2/
+assets/bottles_mj/
+assets/hdri/
+assets/hdri_mj/
+assets/garmi/
+assets/v16_lab/
+*.usd
+*.usda
+*.hdr
+*.obj
+*.stl
+
+# Recordings, datasets and results
+demos/
+*.npz
+*.mp4
+*.gif
+record_log.json
+generation.json
+
+*.bak
+*.bak.*
+*.log

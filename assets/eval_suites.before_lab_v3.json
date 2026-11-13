@@ -1,0 +1,1791 @@
+{
+ "task": "grasp the bottle",
+ "per_arm": 25,
+ "suites": {
+  "nominal": {
+   "ranges": "EVAL_NOMINAL",
+   "first_seed": 200000,
+   "last_seed": 200062,
+   "episodes": [
+    {
+     "seed": 200000,
+     "arm": "right",
+     "bottle": "001_bottle_1.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 45.3
+    },
+    {
+     "seed": 200001,
+     "arm": "left",
+     "bottle": "001_bottle_16.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 43.0
+    },
+    {
+     "seed": 200002,
+     "arm": "right",
+     "bottle": "114_bottle_3.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 43.5
+    },
+    {
+     "seed": 200003,
+     "arm": "right",
+     "bottle": "001_bottle_0.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 58.6
+    },
+    {
+     "seed": 200004,
+     "arm": "right",
+     "bottle": "001_bottle_1.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 57.6
+    },
+    {
+     "seed": 200005,
+     "arm": "right",
+     "bottle": "001_bottle_13.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 42.4
+    },
+    {
+     "seed": 200006,
+     "arm": "right",
+     "bottle": "114_bottle_4.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 50.2
+    },
+    {
+     "seed": 200007,
+     "arm": "right",
+     "bottle": "001_bottle_2.usda",
+     "expert_success": false,
+     "expert_final_lift_cm": 0.0
+    },
+    {
+     "seed": 200008,
+     "arm": "right",
+     "bottle": "001_bottle_1.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 50.9
+    },
+    {
+     "seed": 200009,
+     "arm": "right",
+     "bottle": "114_bottle_1.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 28.1
+    },
+    {
+     "seed": 200010,
+     "arm": "right",
+     "bottle": "001_bottle_1.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 41.1
+    },
+    {
+     "seed": 200011,
+     "arm": "right",
+     "bottle": "001_bottle_7.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 45.3
+    },
+    {
+     "seed": 200012,
+     "arm": "right",
+     "bottle": "001_bottle_0.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 55.2
+    },
+    {
+     "seed": 200013,
+     "arm": "left",
+     "bottle": "001_bottle_16.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 31.6
+    },
+    {
+     "seed": 200014,
+     "arm": "right",
+     "bottle": "001_bottle_0.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 40.5
+    },
+    {
+     "seed": 200015,
+     "arm": "right",
+     "bottle": "001_bottle_2.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 34.4
+    },
+    {
+     "seed": 200016,
+     "arm": "left",
+     "bottle": "001_bottle_16.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 38.0
+    },
+    {
+     "seed": 200017,
+     "arm": "left",
+     "bottle": "114_bottle_4.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 35.7
+    },
+    {
+     "seed": 200018,
+     "arm": "left",
+     "bottle": "001_bottle_1.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 41.4
+    },
+    {
+     "seed": 200019,
+     "arm": "right",
+     "bottle": "001_bottle_7.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 66.1
+    },
+    {
+     "seed": 200020,
+     "arm": "right",
+     "bottle": "001_bottle_2.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 53.2
+    },
+    {
+     "seed": 200021,
+     "arm": "left",
+     "bottle": "114_bottle_4.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 42.0
+    },
+    {
+     "seed": 200022,
+     "arm": "left",
+     "bottle": "001_bottle_7.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 43.1
+    },
+    {
+     "seed": 200023,
+     "arm": "right",
+     "bottle": "114_bottle_4.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 46.8
+    },
+    {
+     "seed": 200024,
+     "arm": "right",
+     "bottle": "001_bottle_16.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 28.3
+    },
+    {
+     "seed": 200025,
+     "arm": "left",
+     "bottle": "001_bottle_0.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 57.7
+    },
+    {
+     "seed": 200026,
+     "arm": "left",
+     "bottle": "001_bottle_16.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 30.0
+    },
+    {
+     "seed": 200027,
+     "arm": "right",
+     "bottle": "001_bottle_7.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 35.8
+    },
+    {
+     "seed": 200028,
+     "arm": "right",
+     "bottle": "001_bottle_16.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 45.1
+    },
+    {
+     "seed": 200029,
+     "arm": "right",
+     "bottle": "114_bottle_1.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 57.3
+    },
+    {
+     "seed": 200030,
+     "arm": "left",
+     "bottle": "114_bottle_3.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 42.7
+    },
+    {
+     "seed": 200031,
+     "arm": "left",
+     "bottle": "001_bottle_7.usda",
+     "expert_success": false,
+     "expert_final_lift_cm": -0.0
+    },
+    {
+     "seed": 200032,
+     "arm": "left",
+     "bottle": "001_bottle_21.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 43.7
+    },
+    {
+     "seed": 200033,
+     "arm": "left",
+     "bottle": "114_bottle_4.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 41.6
+    },
+    {
+     "seed": 200034,
+     "arm": "right",
+     "bottle": "001_bottle_16.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 55.0
+    },
+    {
+     "seed": 200035,
+     "arm": "right",
+     "bottle": "001_bottle_12.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 49.4
+    },
+    {
+     "seed": 200036,
+     "arm": "right",
+     "bottle": "001_bottle_16.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 43.9
+    },
+    {
+     "seed": 200037,
+     "arm": "left",
+     "bottle": "114_bottle_3.usda",
+     "expert_success": false,
+     "expert_final_lift_cm": 18.7
+    },
+    {
+     "seed": 200038,
+     "arm": "right",
+     "bottle": "001_bottle_7.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 54.4
+    },
+    {
+     "seed": 200039,
+     "arm": "left",
+     "bottle": "001_bottle_1.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 35.8
+    },
+    {
+     "seed": 200042,
+     "arm": "left",
+     "bottle": "001_bottle_2.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 43.3
+    },
+    {
+     "seed": 200043,
+     "arm": "left",
+     "bottle": "001_bottle_12.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 40.6
+    },
+    {
+     "seed": 200045,
+     "arm": "left",
+     "bottle": "001_bottle_0.usda",
+     "expert_success": false,
+     "expert_final_lift_cm": -0.0
+    },
+    {
+     "seed": 200047,
+     "arm": "left",
+     "bottle": "114_bottle_1.usda",
+     "expert_success": false,
+     "expert_final_lift_cm": 0.0
+    },
+    {
+     "seed": 200050,
+     "arm": "left",
+     "bottle": "114_bottle_3.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 34.0
+    },
+    {
+     "seed": 200051,
+     "arm": "left",
+     "bottle": "114_bottle_1.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 34.7
+    },
+    {
+     "seed": 200053,
+     "arm": "left",
+     "bottle": "001_bottle_7.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 44.2
+    },
+    {
+     "seed": 200054,
+     "arm": "left",
+     "bottle": "114_bottle_3.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 37.4
+    },
+    {
+     "seed": 200056,
+     "arm": "left",
+     "bottle": "114_bottle_4.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 61.8
+    },
+    {
+     "seed": 200062,
+     "arm": "left",
+     "bottle": "001_bottle_21.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 47.7
+    }
+   ]
+  },
+  "unseen_objects": {
+   "ranges": "EVAL_UNSEEN_OBJECTS",
+   "first_seed": 300000,
+   "last_seed": 300055,
+   "episodes": [
+    {
+     "seed": 300000,
+     "arm": "right",
+     "bottle": "001_bottle_5.usda",
+     "expert_success": false,
+     "expert_final_lift_cm": 0.0
+    },
+    {
+     "seed": 300001,
+     "arm": "right",
+     "bottle": "001_bottle_5.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 53.6
+    },
+    {
+     "seed": 300002,
+     "arm": "right",
+     "bottle": "001_bottle_15.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 48.3
+    },
+    {
+     "seed": 300003,
+     "arm": "right",
+     "bottle": "001_bottle_15.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 39.5
+    },
+    {
+     "seed": 300004,
+     "arm": "right",
+     "bottle": "001_bottle_5.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 60.1
+    },
+    {
+     "seed": 300005,
+     "arm": "left",
+     "bottle": "001_bottle_5.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 38.3
+    },
+    {
+     "seed": 300006,
+     "arm": "right",
+     "bottle": "114_bottle_2.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 55.1
+    },
+    {
+     "seed": 300007,
+     "arm": "left",
+     "bottle": "001_bottle_15.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 41.1
+    },
+    {
+     "seed": 300008,
+     "arm": "right",
+     "bottle": "001_bottle_15.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 52.4
+    },
+    {
+     "seed": 300009,
+     "arm": "left",
+     "bottle": "001_bottle_15.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 33.4
+    },
+    {
+     "seed": 300010,
+     "arm": "right",
+     "bottle": "114_bottle_2.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 34.3
+    },
+    {
+     "seed": 300011,
+     "arm": "left",
+     "bottle": "001_bottle_5.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 42.6
+    },
+    {
+     "seed": 300012,
+     "arm": "right",
+     "bottle": "114_bottle_2.usda",
+     "expert_success": false,
+     "expert_final_lift_cm": 0.0
+    },
+    {
+     "seed": 300013,
+     "arm": "left",
+     "bottle": "001_bottle_5.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 32.1
+    },
+    {
+     "seed": 300014,
+     "arm": "left",
+     "bottle": "001_bottle_5.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 46.7
+    },
+    {
+     "seed": 300015,
+     "arm": "left",
+     "bottle": "114_bottle_2.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 42.2
+    },
+    {
+     "seed": 300016,
+     "arm": "right",
+     "bottle": "001_bottle_15.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 49.3
+    },
+    {
+     "seed": 300017,
+     "arm": "left",
+     "bottle": "001_bottle_5.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 39.4
+    },
+    {
+     "seed": 300018,
+     "arm": "right",
+     "bottle": "001_bottle_15.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 59.8
+    },
+    {
+     "seed": 300019,
+     "arm": "left",
+     "bottle": "114_bottle_2.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 38.5
+    },
+    {
+     "seed": 300020,
+     "arm": "right",
+     "bottle": "001_bottle_15.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 28.9
+    },
+    {
+     "seed": 300021,
+     "arm": "left",
+     "bottle": "001_bottle_5.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 25.7
+    },
+    {
+     "seed": 300022,
+     "arm": "left",
+     "bottle": "001_bottle_5.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 24.2
+    },
+    {
+     "seed": 300023,
+     "arm": "left",
+     "bottle": "001_bottle_15.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 39.0
+    },
+    {
+     "seed": 300024,
+     "arm": "left",
+     "bottle": "001_bottle_15.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 40.1
+    },
+    {
+     "seed": 300025,
+     "arm": "right",
+     "bottle": "114_bottle_2.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 47.6
+    },
+    {
+     "seed": 300026,
+     "arm": "left",
+     "bottle": "001_bottle_15.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 39.3
+    },
+    {
+     "seed": 300027,
+     "arm": "right",
+     "bottle": "001_bottle_15.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 52.8
+    },
+    {
+     "seed": 300028,
+     "arm": "right",
+     "bottle": "001_bottle_5.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 41.9
+    },
+    {
+     "seed": 300029,
+     "arm": "left",
+     "bottle": "001_bottle_15.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 39.1
+    },
+    {
+     "seed": 300030,
+     "arm": "right",
+     "bottle": "001_bottle_5.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 53.6
+    },
+    {
+     "seed": 300031,
+     "arm": "right",
+     "bottle": "001_bottle_5.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 55.6
+    },
+    {
+     "seed": 300032,
+     "arm": "right",
+     "bottle": "114_bottle_2.usda",
+     "expert_success": false,
+     "expert_final_lift_cm": 18.4
+    },
+    {
+     "seed": 300033,
+     "arm": "left",
+     "bottle": "001_bottle_15.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 60.1
+    },
+    {
+     "seed": 300034,
+     "arm": "right",
+     "bottle": "114_bottle_2.usda",
+     "expert_success": false,
+     "expert_final_lift_cm": 0.0
+    },
+    {
+     "seed": 300035,
+     "arm": "right",
+     "bottle": "001_bottle_15.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 41.9
+    },
+    {
+     "seed": 300036,
+     "arm": "right",
+     "bottle": "001_bottle_15.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 65.2
+    },
+    {
+     "seed": 300037,
+     "arm": "right",
+     "bottle": "001_bottle_15.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 44.4
+    },
+    {
+     "seed": 300038,
+     "arm": "right",
+     "bottle": "114_bottle_2.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 25.8
+    },
+    {
+     "seed": 300039,
+     "arm": "right",
+     "bottle": "001_bottle_15.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 46.2
+    },
+    {
+     "seed": 300040,
+     "arm": "left",
+     "bottle": "001_bottle_15.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 34.0
+    },
+    {
+     "seed": 300041,
+     "arm": "left",
+     "bottle": "114_bottle_2.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 45.3
+    },
+    {
+     "seed": 300042,
+     "arm": "right",
+     "bottle": "001_bottle_15.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 52.4
+    },
+    {
+     "seed": 300043,
+     "arm": "left",
+     "bottle": "001_bottle_5.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 33.1
+    },
+    {
+     "seed": 300044,
+     "arm": "left",
+     "bottle": "001_bottle_5.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 41.9
+    },
+    {
+     "seed": 300045,
+     "arm": "left",
+     "bottle": "001_bottle_15.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 38.6
+    },
+    {
+     "seed": 300048,
+     "arm": "left",
+     "bottle": "114_bottle_2.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 26.4
+    },
+    {
+     "seed": 300052,
+     "arm": "left",
+     "bottle": "114_bottle_2.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 45.8
+    },
+    {
+     "seed": 300053,
+     "arm": "left",
+     "bottle": "001_bottle_5.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 41.2
+    },
+    {
+     "seed": 300055,
+     "arm": "left",
+     "bottle": "001_bottle_15.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 48.6
+    }
+   ]
+  },
+  "unseen_rooms": {
+   "ranges": "EVAL_UNSEEN_ROOMS",
+   "first_seed": 500000,
+   "last_seed": 500056,
+   "episodes": [
+    {
+     "seed": 500001,
+     "arm": "left",
+     "bottle": "114_bottle_3.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 22.2
+    },
+    {
+     "seed": 500002,
+     "arm": "right",
+     "bottle": "114_bottle_4.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 29.3
+    },
+    {
+     "seed": 500003,
+     "arm": "right",
+     "bottle": "001_bottle_21.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 47.7
+    },
+    {
+     "seed": 500004,
+     "arm": "left",
+     "bottle": "001_bottle_1.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 47.1
+    },
+    {
+     "seed": 500005,
+     "arm": "left",
+     "bottle": "001_bottle_1.usda",
+     "expert_success": false,
+     "expert_final_lift_cm": 3.1
+    },
+    {
+     "seed": 500006,
+     "arm": "left",
+     "bottle": "001_bottle_7.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 37.8
+    },
+    {
+     "seed": 500007,
+     "arm": "right",
+     "bottle": "001_bottle_21.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 54.2
+    },
+    {
+     "seed": 500008,
+     "arm": "right",
+     "bottle": "001_bottle_21.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 40.6
+    },
+    {
+     "seed": 500009,
+     "arm": "right",
+     "bottle": "001_bottle_2.usda",
+     "expert_success": false,
+     "expert_final_lift_cm": 0.0
+    },
+    {
+     "seed": 500010,
+     "arm": "left",
+     "bottle": "001_bottle_1.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 33.5
+    },
+    {
+     "seed": 500011,
+     "arm": "left",
+     "bottle": "001_bottle_7.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 48.9
+    },
+    {
+     "seed": 500012,
+     "arm": "left",
+     "bottle": "001_bottle_13.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 38.6
+    },
+    {
+     "seed": 500013,
+     "arm": "right",
+     "bottle": "001_bottle_2.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 56.7
+    },
+    {
+     "seed": 500014,
+     "arm": "right",
+     "bottle": "001_bottle_2.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 54.9
+    },
+    {
+     "seed": 500015,
+     "arm": "left",
+     "bottle": "001_bottle_16.usda",
+     "expert_success": false,
+     "expert_final_lift_cm": 3.2
+    },
+    {
+     "seed": 500016,
+     "arm": "right",
+     "bottle": "001_bottle_21.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 62.7
+    },
+    {
+     "seed": 500017,
+     "arm": "left",
+     "bottle": "001_bottle_12.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 34.5
+    },
+    {
+     "seed": 500018,
+     "arm": "left",
+     "bottle": "001_bottle_2.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 40.4
+    },
+    {
+     "seed": 500019,
+     "arm": "left",
+     "bottle": "001_bottle_0.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 39.1
+    },
+    {
+     "seed": 500020,
+     "arm": "right",
+     "bottle": "114_bottle_4.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 43.1
+    },
+    {
+     "seed": 500021,
+     "arm": "right",
+     "bottle": "114_bottle_3.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 43.0
+    },
+    {
+     "seed": 500022,
+     "arm": "right",
+     "bottle": "001_bottle_0.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 50.7
+    },
+    {
+     "seed": 500023,
+     "arm": "left",
+     "bottle": "001_bottle_21.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 31.6
+    },
+    {
+     "seed": 500024,
+     "arm": "left",
+     "bottle": "001_bottle_13.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 47.0
+    },
+    {
+     "seed": 500025,
+     "arm": "left",
+     "bottle": "001_bottle_1.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 48.0
+    },
+    {
+     "seed": 500026,
+     "arm": "left",
+     "bottle": "114_bottle_3.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 33.5
+    },
+    {
+     "seed": 500027,
+     "arm": "right",
+     "bottle": "114_bottle_4.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 35.4
+    },
+    {
+     "seed": 500028,
+     "arm": "right",
+     "bottle": "001_bottle_13.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 45.6
+    },
+    {
+     "seed": 500029,
+     "arm": "left",
+     "bottle": "114_bottle_1.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 33.5
+    },
+    {
+     "seed": 500030,
+     "arm": "right",
+     "bottle": "001_bottle_12.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 35.5
+    },
+    {
+     "seed": 500031,
+     "arm": "left",
+     "bottle": "001_bottle_12.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 37.9
+    },
+    {
+     "seed": 500032,
+     "arm": "right",
+     "bottle": "114_bottle_4.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 33.0
+    },
+    {
+     "seed": 500033,
+     "arm": "left",
+     "bottle": "114_bottle_4.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 26.4
+    },
+    {
+     "seed": 500034,
+     "arm": "left",
+     "bottle": "114_bottle_1.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 38.3
+    },
+    {
+     "seed": 500035,
+     "arm": "right",
+     "bottle": "001_bottle_21.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 63.7
+    },
+    {
+     "seed": 500036,
+     "arm": "right",
+     "bottle": "114_bottle_3.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 55.7
+    },
+    {
+     "seed": 500037,
+     "arm": "left",
+     "bottle": "114_bottle_3.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 36.5
+    },
+    {
+     "seed": 500038,
+     "arm": "right",
+     "bottle": "001_bottle_2.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 57.7
+    },
+    {
+     "seed": 500039,
+     "arm": "left",
+     "bottle": "114_bottle_3.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 40.9
+    },
+    {
+     "seed": 500040,
+     "arm": "left",
+     "bottle": "001_bottle_21.usda",
+     "expert_success": false,
+     "expert_final_lift_cm": -0.0
+    },
+    {
+     "seed": 500041,
+     "arm": "right",
+     "bottle": "001_bottle_1.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 44.1
+    },
+    {
+     "seed": 500042,
+     "arm": "right",
+     "bottle": "114_bottle_1.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 36.7
+    },
+    {
+     "seed": 500043,
+     "arm": "left",
+     "bottle": "114_bottle_3.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 40.5
+    },
+    {
+     "seed": 500044,
+     "arm": "left",
+     "bottle": "001_bottle_13.usda",
+     "expert_success": false,
+     "expert_final_lift_cm": 0.0
+    },
+    {
+     "seed": 500045,
+     "arm": "right",
+     "bottle": "114_bottle_1.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 44.9
+    },
+    {
+     "seed": 500046,
+     "arm": "left",
+     "bottle": "001_bottle_0.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 29.2
+    },
+    {
+     "seed": 500049,
+     "arm": "right",
+     "bottle": "001_bottle_13.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 52.5
+    },
+    {
+     "seed": 500053,
+     "arm": "right",
+     "bottle": "114_bottle_3.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 21.4
+    },
+    {
+     "seed": 500055,
+     "arm": "right",
+     "bottle": "001_bottle_16.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 47.0
+    },
+    {
+     "seed": 500056,
+     "arm": "right",
+     "bottle": "114_bottle_4.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 36.4
+    }
+   ]
+  },
+  "train_ranges": {
+   "ranges": "TRAIN",
+   "first_seed": 400000,
+   "last_seed": 400059,
+   "episodes": [
+    {
+     "seed": 400000,
+     "arm": "left",
+     "bottle": "001_bottle_0.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 42.9
+    },
+    {
+     "seed": 400001,
+     "arm": "left",
+     "bottle": "114_bottle_4.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 41.0
+    },
+    {
+     "seed": 400002,
+     "arm": "right",
+     "bottle": "001_bottle_13.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 49.6
+    },
+    {
+     "seed": 400003,
+     "arm": "right",
+     "bottle": "001_bottle_21.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 44.9
+    },
+    {
+     "seed": 400004,
+     "arm": "left",
+     "bottle": "001_bottle_7.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 24.2
+    },
+    {
+     "seed": 400005,
+     "arm": "left",
+     "bottle": "001_bottle_1.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 27.1
+    },
+    {
+     "seed": 400006,
+     "arm": "left",
+     "bottle": "001_bottle_0.usda",
+     "expert_success": false,
+     "expert_final_lift_cm": -0.0
+    },
+    {
+     "seed": 400007,
+     "arm": "left",
+     "bottle": "001_bottle_16.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 57.9
+    },
+    {
+     "seed": 400008,
+     "arm": "left",
+     "bottle": "001_bottle_2.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 45.5
+    },
+    {
+     "seed": 400009,
+     "arm": "left",
+     "bottle": "001_bottle_13.usda",
+     "expert_success": false,
+     "expert_final_lift_cm": 3.2
+    },
+    {
+     "seed": 400010,
+     "arm": "right",
+     "bottle": "114_bottle_1.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 59.1
+    },
+    {
+     "seed": 400011,
+     "arm": "right",
+     "bottle": "114_bottle_3.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 61.2
+    },
+    {
+     "seed": 400012,
+     "arm": "left",
+     "bottle": "001_bottle_1.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 44.5
+    },
+    {
+     "seed": 400013,
+     "arm": "right",
+     "bottle": "001_bottle_12.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 40.3
+    },
+    {
+     "seed": 400014,
+     "arm": "left",
+     "bottle": "001_bottle_21.usda",
+     "expert_success": false,
+     "expert_final_lift_cm": 3.2
+    },
+    {
+     "seed": 400015,
+     "arm": "right",
+     "bottle": "114_bottle_1.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 62.1
+    },
+    {
+     "seed": 400016,
+     "arm": "left",
+     "bottle": "001_bottle_13.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 49.5
+    },
+    {
+     "seed": 400017,
+     "arm": "left",
+     "bottle": "114_bottle_3.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 58.2
+    },
+    {
+     "seed": 400018,
+     "arm": "right",
+     "bottle": "114_bottle_1.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 36.5
+    },
+    {
+     "seed": 400019,
+     "arm": "left",
+     "bottle": "114_bottle_3.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 45.9
+    },
+    {
+     "seed": 400020,
+     "arm": "left",
+     "bottle": "001_bottle_21.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 49.2
+    },
+    {
+     "seed": 400021,
+     "arm": "left",
+     "bottle": "114_bottle_1.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 49.1
+    },
+    {
+     "seed": 400022,
+     "arm": "left",
+     "bottle": "001_bottle_16.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 29.4
+    },
+    {
+     "seed": 400023,
+     "arm": "right",
+     "bottle": "001_bottle_1.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 57.4
+    },
+    {
+     "seed": 400024,
+     "arm": "left",
+     "bottle": "114_bottle_3.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 51.8
+    },
+    {
+     "seed": 400025,
+     "arm": "right",
+     "bottle": "001_bottle_0.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 44.3
+    },
+    {
+     "seed": 400026,
+     "arm": "left",
+     "bottle": "114_bottle_4.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 43.7
+    },
+    {
+     "seed": 400027,
+     "arm": "right",
+     "bottle": "001_bottle_2.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 42.5
+    },
+    {
+     "seed": 400028,
+     "arm": "right",
+     "bottle": "001_bottle_2.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 29.7
+    },
+    {
+     "seed": 400029,
+     "arm": "left",
+     "bottle": "001_bottle_2.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 39.8
+    },
+    {
+     "seed": 400030,
+     "arm": "right",
+     "bottle": "114_bottle_3.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 43.8
+    },
+    {
+     "seed": 400031,
+     "arm": "left",
+     "bottle": "001_bottle_2.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 29.1
+    },
+    {
+     "seed": 400032,
+     "arm": "left",
+     "bottle": "001_bottle_12.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 36.6
+    },
+    {
+     "seed": 400033,
+     "arm": "left",
+     "bottle": "001_bottle_12.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 36.1
+    },
+    {
+     "seed": 400034,
+     "arm": "right",
+     "bottle": "001_bottle_13.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 59.6
+    },
+    {
+     "seed": 400035,
+     "arm": "right",
+     "bottle": "001_bottle_16.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 44.5
+    },
+    {
+     "seed": 400036,
+     "arm": "left",
+     "bottle": "001_bottle_0.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 31.5
+    },
+    {
+     "seed": 400037,
+     "arm": "left",
+     "bottle": "001_bottle_21.usda",
+     "expert_success": false,
+     "expert_final_lift_cm": -0.0
+    },
+    {
+     "seed": 400038,
+     "arm": "right",
+     "bottle": "001_bottle_21.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 44.2
+    },
+    {
+     "seed": 400039,
+     "arm": "left",
+     "bottle": "114_bottle_3.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 64.8
+    },
+    {
+     "seed": 400040,
+     "arm": "right",
+     "bottle": "001_bottle_13.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 60.7
+    },
+    {
+     "seed": 400042,
+     "arm": "right",
+     "bottle": "001_bottle_0.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 35.1
+    },
+    {
+     "seed": 400044,
+     "arm": "right",
+     "bottle": "001_bottle_16.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 39.6
+    },
+    {
+     "seed": 400045,
+     "arm": "right",
+     "bottle": "001_bottle_7.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 54.5
+    },
+    {
+     "seed": 400049,
+     "arm": "right",
+     "bottle": "001_bottle_12.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 27.2
+    },
+    {
+     "seed": 400051,
+     "arm": "right",
+     "bottle": "001_bottle_13.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 53.0
+    },
+    {
+     "seed": 400053,
+     "arm": "right",
+     "bottle": "001_bottle_21.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 50.7
+    },
+    {
+     "seed": 400055,
+     "arm": "right",
+     "bottle": "001_bottle_0.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 36.0
+    },
+    {
+     "seed": 400058,
+     "arm": "right",
+     "bottle": "114_bottle_1.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 38.5
+    },
+    {
+     "seed": 400059,
+     "arm": "right",
+     "bottle": "001_bottle_12.usda",
+     "expert_success": true,
+     "expert_final_lift_cm": 39.3
+    }
+   ]
+  },
+  "v16_lab": {
+   "ranges": "EVAL_V16_LAB",
+   "first_seed": 600000,
+   "last_seed": 600049,
+   "episodes": [
+    {
+     "seed": 600000,
+     "arm": "left",
+     "bottle": "pet_bottle_gold",
+     "expert_success": true,
+     "expert_final_lift_cm": 32.1
+    },
+    {
+     "seed": 600001,
+     "arm": "right",
+     "bottle": "pet_bottle_gold",
+     "expert_success": true,
+     "expert_final_lift_cm": 31.3
+    },
+    {
+     "seed": 600002,
+     "arm": "left",
+     "bottle": "pet_bottle_green",
+     "expert_success": true,
+     "expert_final_lift_cm": 40.3
+    },
+    {
+     "seed": 600003,
+     "arm": "left",
+     "bottle": "pet_bottle_white",
+     "expert_success": true,
+     "expert_final_lift_cm": 35.6
+    },
+    {
+     "seed": 600004,
+     "arm": "right",
+     "bottle": "pet_bottle_blue",
+     "expert_success": true,
+     "expert_final_lift_cm": 50.5
+    },
+    {
+     "seed": 600005,
+     "arm": "left",
+     "bottle": "pet_bottle_blue",
+     "expert_success": true,
+     "expert_final_lift_cm": 47.1
+    },
+    {
+     "seed": 600006,
+     "arm": "left",
+     "bottle": "pet_bottle_gold",
+     "expert_success": true,
+     "expert_final_lift_cm": 40.5
+    },
+    {
+     "seed": 600007,
+     "arm": "left",
+     "bottle": "pet_bottle_white",
+     "expert_success": true,
+     "expert_final_lift_cm": 24.1
+    },
+    {
+     "seed": 600008,
+     "arm": "left",
+     "bottle": "pet_bottle_green",
+     "expert_success": true,
+     "expert_final_lift_cm": 52.5
+    },
+    {
+     "seed": 600009,
+     "arm": "left",
+     "bottle": "pet_bottle_green",
+     "expert_success": true,
+     "expert_final_lift_cm": 52.7
+    },
+    {
+     "seed": 600010,
+     "arm": "right",
+     "bottle": "pet_bottle_blue",
+     "expert_success": true,
+     "expert_final_lift_cm": 39.5
+    },
+    {
+     "seed": 600011,
+     "arm": "left",
+     "bottle": "pet_bottle_green",
+     "expert_success": true,
+     "expert_final_lift_cm": 53.3
+    },
+    {
+     "seed": 600012,
+     "arm": "left",
+     "bottle": "pet_bottle_white",
+     "expert_success": true,
+     "expert_final_lift_cm": 47.2
+    },
+    {
+     "seed": 600013,
+     "arm": "right",
+     "bottle": "pet_bottle_gold",
+     "expert_success": true,
+     "expert_final_lift_cm": 28.1
+    },
+    {
+     "seed": 600014,
+     "arm": "right",
+     "bottle": "pet_bottle_blue",
+     "expert_success": true,
+     "expert_final_lift_cm": 29.5
+    },
+    {
+     "seed": 600015,
+     "arm": "left",
+     "bottle": "pet_bottle_green",
+     "expert_success": true,
+     "expert_final_lift_cm": 33.9
+    },
+    {
+     "seed": 600016,
+     "arm": "right",
+     "bottle": "pet_bottle_green",
+     "expert_success": true,
+     "expert_final_lift_cm": 44.6
+    },
+    {
+     "seed": 600017,
+     "arm": "left",
+     "bottle": "pet_bottle_gold",
+     "expert_success": true,
+     "expert_final_lift_cm": 41.0
+    },
+    {
+     "seed": 600018,
+     "arm": "right",
+     "bottle": "pet_bottle_gold",
+     "expert_success": true,
+     "expert_final_lift_cm": 60.4
+    },
+    {
+     "seed": 600019,
+     "arm": "right",
+     "bottle": "pet_bottle_blue",
+     "expert_success": true,
+     "expert_final_lift_cm": 54.4
+    },
+    {
+     "seed": 600020,
+     "arm": "left",
+     "bottle": "pet_bottle_white",
+     "expert_success": true,
+     "expert_final_lift_cm": 44.5
+    },
+    {
+     "seed": 600021,
+     "arm": "right",
+     "bottle": "pet_bottle_blue",
+     "expert_success": true,
+     "expert_final_lift_cm": 48.7
+    },
+    {
+     "seed": 600022,
+     "arm": "left",
+     "bottle": "pet_bottle_green",
+     "expert_success": false,
+     "expert_final_lift_cm": 0.0
+    },
+    {
+     "seed": 600023,
+     "arm": "left",
+     "bottle": "pet_bottle_gold",
+     "expert_success": false,
+     "expert_final_lift_cm": 3.0
+    },
+    {
+     "seed": 600024,
+     "arm": "right",
+     "bottle": "pet_bottle_green",
+     "expert_success": true,
+     "expert_final_lift_cm": 47.3
+    },
+    {
+     "seed": 600025,
+     "arm": "right",
+     "bottle": "pet_bottle_white",
+     "expert_success": true,
+     "expert_final_lift_cm": 64.2
+    },
+    {
+     "seed": 600026,
+     "arm": "left",
+     "bottle": "pet_bottle_gold",
+     "expert_success": true,
+     "expert_final_lift_cm": 44.7
+    },
+    {
+     "seed": 600027,
+     "arm": "right",
+     "bottle": "pet_bottle_gold",
+     "expert_success": true,
+     "expert_final_lift_cm": 44.3
+    },
+    {
+     "seed": 600028,
+     "arm": "left",
+     "bottle": "pet_bottle_gold",
+     "expert_success": true,
+     "expert_final_lift_cm": 44.3
+    },
+    {
+     "seed": 600029,
+     "arm": "right",
+     "bottle": "pet_bottle_gold",
+     "expert_success": true,
+     "expert_final_lift_cm": 50.5
+    },
+    {
+     "seed": 600030,
+     "arm": "right",
+     "bottle": "pet_bottle_green",
+     "expert_success": true,
+     "expert_final_lift_cm": 41.9
+    },
+    {
+     "seed": 600031,
+     "arm": "left",
+     "bottle": "pet_bottle_gold",
+     "expert_success": true,
+     "expert_final_lift_cm": 39.0
+    },
+    {
+     "seed": 600032,
+     "arm": "left",
+     "bottle": "pet_bottle_white",
+     "expert_success": true,
+     "expert_final_lift_cm": 61.5
+    },
+    {
+     "seed": 600033,
+     "arm": "right",
+     "bottle": "pet_bottle_white",
+     "expert_success": true,
+     "expert_final_lift_cm": 54.5
+    },
+    {
+     "seed": 600034,
+     "arm": "right",
+     "bottle": "pet_bottle_blue",
+     "expert_success": true,
+     "expert_final_lift_cm": 53.6
+    },
+    {
+     "seed": 600035,
+     "arm": "right",
+     "bottle": "pet_bottle_green",
+     "expert_success": true,
+     "expert_final_lift_cm": 45.4
+    },
+    {
+     "seed": 600036,
+     "arm": "right",
+     "bottle": "pet_bottle_white",
+     "expert_success": true,
+     "expert_final_lift_cm": 46.2
+    },
+    {
+     "seed": 600037,
+     "arm": "right",
+     "bottle": "pet_bottle_white",
+     "expert_success": true,
+     "expert_final_lift_cm": 33.6
+    },
+    {
+     "seed": 600038,
+     "arm": "right",
+     "bottle": "pet_bottle_green",
+     "expert_success": true,
+     "expert_final_lift_cm": 45.2
+    },
+    {
+     "seed": 600039,
+     "arm": "left",
+     "bottle": "pet_bottle_white",
+     "expert_success": true,
+     "expert_final_lift_cm": 40.1
+    },
+    {
+     "seed": 600040,
+     "arm": "left",
+     "bottle": "pet_bottle_blue",
+     "expert_success": true,
+     "expert_final_lift_cm": 27.4
+    },
+    {
+     "seed": 600041,
+     "arm": "left",
+     "bottle": "pet_bottle_green",
+     "expert_success": true,
+     "expert_final_lift_cm": 61.3
+    },
+    {
+     "seed": 600042,
+     "arm": "right",
+     "bottle": "pet_bottle_green",
+     "expert_success": true,
+     "expert_final_lift_cm": 59.2
+    },
+    {
+     "seed": 600043,
+     "arm": "right",
+     "bottle": "pet_bottle_gold",
+     "expert_success": true,
+     "expert_final_lift_cm": 31.6
+    },
+    {
+     "seed": 600044,
+     "arm": "left",
+     "bottle": "pet_bottle_white",
+     "expert_success": true,
+     "expert_final_lift_cm": 43.5
+    },
+    {
+     "seed": 600045,
+     "arm": "right",
+     "bottle": "pet_bottle_blue",
+     "expert_success": true,
+     "expert_final_lift_cm": 43.8
+    },
+    {
+     "seed": 600046,
+     "arm": "right",
+     "bottle": "pet_bottle_gold",
+     "expert_success": true,
+     "expert_final_lift_cm": 55.5
+    },
+    {
+     "seed": 600047,
+     "arm": "right",
+     "bottle": "pet_bottle_gold",
+     "expert_success": true,
+     "expert_final_lift_cm": 29.5
+    },
+    {
+     "seed": 600048,
+     "arm": "left",
+     "bottle": "pet_bottle_green",
+     "expert_success": true,
+     "expert_final_lift_cm": 34.5
+    },
+    {
+     "seed": 600049,
+     "arm": "left",
+     "bottle": "pet_bottle_green",
+     "expert_success": true,
+     "expert_final_lift_cm": 23.4
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "tilt": 0.53134,
+ "pan": 0.02059,
+ "roll": 0.03108,
+ "f": 111.99702,
+ "k2": -0.09264,
+ "cx": 126.59807,
+ "cy": 129.16608,
+ "image_size": 256,
+ "image_circle_px": 156.0,
+ "fov_deg": 269.1,
+ "iou_mean": 0.717,
+ "iou_per_episode": {
+  "0": 0.736,
+  "18": 0.792,
+  "36": 0.722,
+  "55": 0.758,
+  "73": 0.686,
+  "91": 0.624,
+  "110": 0.698,
+  "128": 0.772,
+  "146": 0.681,
+  "165": 0.638,
+  "183": 0.729,
+  "202": 0.765
+ },
+ "model": "r = f (theta + k2 theta^3) around (cx, cy), image rotated by roll; tilt / pan = o1_motor_2 / o1_motor_1",
+ "data": "/home/ga85hiq/garmi_vlapi/data/garmi_grasp_bottle_v16, episodes [0, 18, 36, 55, 73, 91, 110, 128, 146, 165, 183, 202], every 3th frame",
+ "optimizer": "Optimization terminated successfully."
+}
